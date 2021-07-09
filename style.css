@@ -1,0 +1,36 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#test {
+  border: 1px solid black;
+  width: 700px;
+  margin: 0 auto;
+  padding: 20px 30px;
+}
+
+#test div h1 {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+input {
+  margin: 10px;
+  padding: 8px;
+  background-color: brown;
+  color: antiquewhite;
+  border: 1px solid antiquewhite;
+}
+.quest {
+  margin-top: 40px;
+}
+#q1r,
+#q2r,
+#q3r {
+  font-size: small;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.buttomAnswer {
+  display: flex;
+}

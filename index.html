@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="test">
+      <div>
+        <h1>multiple question quiz from</h1>
+      </div>
+      <div class="quest">
+        <h2>Where would you find the Empire State building?</h2>
+        <div>
+          <input name="q1" type="radio" value=" New York" />
+          New York |
+          <input name="q1" type="radio" value="Los Angeles" />
+          Los Angeles |
+          <input name="q1" type="radio" value="San Francisco" />
+          San Francisco |
+          <input name="q1" type="radio" value="New Orleans" />
+          New Orleans |
+        </div>
+        <div class="buttomAnswer">
+          <input
+            onclick="gradeTest()"
+            name="submit"
+            type="button"
+            value="Grade This Test"
+          />
+          <h2 id="q1r"></h2>
+        </div>
+      </div>
+      <div class="quest">
+        <h2>Identify the components of a PC</h2>
+        <div>
+          <input id="q2" name="q2" type="checkbox" value="Processor" />
+          Processor |
+          <input id="q2" name="q2" type="checkbox" value="Memory" />
+          Memory |
+          <input id="q2" name="q2" type="checkbox" value="Hard Disk" />
+          Hard Disk |
+          <input id="q2" name="q2" type="checkbox" value="CD-ROM Drive" />
+          CD-ROM Drive
+          <input id="q2" name="q2" type="checkbox" value="Printer" />
+          Printer
+        </div>
+        <div class="buttomAnswer">
+          <input
+            onclick="gradeTest()"
+            name="submit"
+            type="button"
+            value="Grade This Test"
+          />
+          <h2 id="q2r"></h2>
+        </div>
+      </div>
+      <div class="quest">
+        <h2>_______ is a character in the film “The Matrix”</h2>
+        <div>
+          <input name="q3" type="radio" value=" R2D2" />
+          R2D2 |
+          <input name="q3" type="radio" value="Neo" />
+          Neo |
+          <input name="q3" type="radio" value="Ripley" />
+          Ripley|
+        </div>
+        <div class="buttomAnswer">
+          <input
+            onclick="gradeTest()"
+            name="submit"
+            type="button"
+            value="Grade This Test"
+          />
+          <h2 id="q3r"></h2>
+        </div>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
